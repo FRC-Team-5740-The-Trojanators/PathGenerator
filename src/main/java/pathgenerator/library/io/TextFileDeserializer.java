@@ -1,8 +1,8 @@
-package pathgenerator.trajectory.io;
+package pathgenerator.library.io;
 
-import pathgenerator.trajectory.Path;
+import pathgenerator.library.trajectory.Path;
 import java.util.StringTokenizer;
-import pathgenerator.trajectory.Trajectory;
+import pathgenerator.library.trajectory.Trajectory;
 
 /**
  *

@@ -1,6 +1,6 @@
-package pathgenerator.trajectory.io;
+package pathgenerator.library.io;
 
-import pathgenerator.trajectory.Path;
+import pathgenerator.library.trajectory.Path;
 
 /**
  * Interface for methods that deserializes a Path or Trajectory.

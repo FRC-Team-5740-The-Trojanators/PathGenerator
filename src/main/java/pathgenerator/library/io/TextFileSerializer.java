@@ -1,7 +1,8 @@
-package pathgenerator.trajectory.io;
-import pathgenerator.trajectory.Trajectory;
-import pathgenerator.trajectory.Trajectory.Segment;
-import pathgenerator.trajectory.Path;
+package pathgenerator.library.io;
+
+import pathgenerator.library.trajectory.Trajectory;
+import pathgenerator.library.trajectory.Trajectory.Segment;
+import pathgenerator.library.trajectory.Path;
 
 /**
  * Serializes a Path to a simple space and CR separated text file.
