@@ -3,8 +3,10 @@ package pathgenerator.util;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import pathgenerator.util.ChezyMath;
-import pathgenerator.util.WaypointManagement;
+import pathgenerator.library.util.ChezyMath;
+import pathgenerator.library.util.WaypointManagement;
+import pathgenerator.library.util.WaypointTableData;
+
 
 /***
  * This Test class is here to set the waypoint management Functionality 
@@ -13,7 +15,6 @@ import pathgenerator.util.WaypointManagement;
  */
 public class WaypointManagementTests 
 {
-
     @Test
     public void Create_A_Single_Element_Sequence()
     {

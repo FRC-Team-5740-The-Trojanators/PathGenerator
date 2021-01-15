@@ -1,4 +1,4 @@
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
 /* Initial authors: Art Kalb, Stephen Pinkerton, Jared341 */
 

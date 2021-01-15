@@ -1,4 +1,4 @@
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
 /* Initial authors: Jared341 */
 

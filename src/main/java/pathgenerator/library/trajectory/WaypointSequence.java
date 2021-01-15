@@ -1,11 +1,11 @@
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.LinkedList;
 
 import pathgenerator.Main;
-import pathgenerator.util.ChezyMath;
+import pathgenerator.library.util.ChezyMath;
 
 /* Initial authors: Art Kalb, Stephen Pinkerton, Jared341 */
 

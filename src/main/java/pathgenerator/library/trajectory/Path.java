@@ -1,6 +1,6 @@
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
-import pathgenerator.trajectory.Trajectory.Segment;
+import pathgenerator.library.trajectory.Trajectory.Segment;
 
 /* Initial author:Jared341 */
 
@@ -8,23 +8,27 @@ import pathgenerator.trajectory.Trajectory.Segment;
 /**
  * Base class for an autonomous path.
  */
-public class Path {
+public class Path 
+{
     protected Trajectory.Pair go_left_pair_;
     protected String name_;
     protected boolean go_left_;
 
-    public Path(String name, Trajectory.Pair go_left_pair) {
+    public Path(String name, Trajectory.Pair go_left_pair) 
+    {
         name_ = name;
         go_left_pair_ = go_left_pair;
         go_left_ = true;
     }
 
-    public Path() {
+    public Path() 
+    {
     }
 
     public String getName() { return name_; }
 
-    public void goLeft() { 
+    public void goLeft() 
+    { 
         go_left_ = true; 
         go_left_pair_.left.setInvertedY(false);
         go_left_pair_.right.setInvertedY(false);

@@ -1,7 +1,7 @@
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
 import pathgenerator.Main;
-import pathgenerator.util.ChezyMath;
+import pathgenerator.library.util.ChezyMath;
 
 /* Initial authors: Art Kalb, Jared341 */
 

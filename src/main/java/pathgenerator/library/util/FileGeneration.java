@@ -1,4 +1,4 @@
-package pathgenerator.util;
+package pathgenerator.library.util;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -29,11 +29,11 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.simpleyaml.configuration.file.YamlFile;
 
 import javafx.stage.Stage;
-import pathgenerator.trajectory.Path;
-import pathgenerator.trajectory.Trajectory;
-import pathgenerator.trajectory.WaypointSequence;
-import pathgenerator.trajectory.io.JavaSerializer;
-import pathgenerator.trajectory.io.TextFileSerializer;
+import pathgenerator.library.trajectory.Path;
+import pathgenerator.library.trajectory.Trajectory;
+import pathgenerator.library.trajectory.WaypointSequence;
+import pathgenerator.library.io.JavaSerializer;
+import pathgenerator.library.io.TextFileSerializer;
 
 import pathgenerator.Main;
 
@@ -45,7 +45,8 @@ import pathgenerator.Main;
  * @param path     path for path generation
  */
 // TODO: generate output to csv format
-public class FileGeneration {
+public class FileGeneration 
+{
     private Trajectory trajectory = new Trajectory();
     private WaypointSequence sequence = new WaypointSequence();
     private WaypointTableData tableData = new WaypointTableData();
@@ -127,12 +128,12 @@ public class FileGeneration {
         try {
             if (!yamlFile.exists()) 
             {
-                Main.logger.info("New file has been created: " + yamlFile.getFilePath() + "\n");
+//                Main.logger.info("New file has been created: " + yamlFile.getFilePath() + "\n");
                 yamlFile.createNewFile(true);
             } 
             else 
             {
-                Main.logger.info(yamlFile.getFilePath() + " already exists, loading configurations...\n");
+//                Main.logger.info(yamlFile.getFilePath() + " already exists, loading configurations...\n");
             }
             yamlFile.load(); // Loads the entire file
             // If your file has comments inside you have to load it with yamlFile.loadWithComments()
@@ -170,12 +171,12 @@ public class FileGeneration {
         {
             if (!yamlFile.exists()) 
             {
-                Main.logger.info("New file has been created: " + yamlFile.getFilePath() + "\n");
+//                Main.logger.info("New file has been created: " + yamlFile.getFilePath() + "\n");
                 yamlFile.createNewFile(true);
             } 
             else 
             {
-                Main.logger.info(yamlFile.getFilePath() + " already exists, loading configurations...\n");
+//                Main.logger.info(yamlFile.getFilePath() + " already exists, loading configurations...\n");
             }
             yamlFile.load(); // Loads the entire file
             // If your file has comments inside you have to load it with yamlFile.loadWithComments()

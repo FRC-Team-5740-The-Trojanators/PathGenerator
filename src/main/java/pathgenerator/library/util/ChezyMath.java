@@ -1,4 +1,4 @@
-package pathgenerator.util;
+package pathgenerator.library.util;
 
 /**
  * This class holds a bunch of static methods and variables needed for

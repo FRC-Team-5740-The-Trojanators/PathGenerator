@@ -1,4 +1,4 @@
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

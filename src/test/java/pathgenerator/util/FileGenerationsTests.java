@@ -10,11 +10,11 @@ import com.amihaiemil.eoyaml.YamlMappingBuilder;
 import com.amihaiemil.eoyaml.YamlStream;
 
 import org.junit.Test;
-import org.simpleyaml.configuration.file.YamlFile;
+//import org.simpleyaml.configuration.file.YamlFile;
 
-import pathgenerator.trajectory.Path;
-import pathgenerator.trajectory.PathGenerator;
-import pathgenerator.trajectory.WaypointSequence;
+import pathgenerator.library.trajectory.Path;
+import pathgenerator.library.trajectory.PathGenerator;
+import pathgenerator.library.trajectory.WaypointSequence;
 
 /**
  * This Tests the Functionality fot the FileGeneration
