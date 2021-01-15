@@ -1,4 +1,4 @@
-package pathgenerator.util;
+package pathgenerator.library.util;
 
 import static org.junit.Assert.assertEquals;
 
