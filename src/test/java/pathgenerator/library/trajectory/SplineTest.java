@@ -1,6 +1,6 @@
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
-import pathgenerator.util.ChezyMath;
+import pathgenerator.library.util.ChezyMath;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;

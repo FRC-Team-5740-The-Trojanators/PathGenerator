@@ -1,5 +1,5 @@
 
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 

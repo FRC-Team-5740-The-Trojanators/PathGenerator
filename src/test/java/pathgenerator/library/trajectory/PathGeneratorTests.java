@@ -1,6 +1,6 @@
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
-import pathgenerator.trajectory.Trajectory.Segment;
+import pathgenerator.library.trajectory.Trajectory.Segment;
 //import static pathgenerator.trajectory.TrajectoryGeneratorTest.test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -13,7 +13,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
-import pathgenerator.util.ChezyMath;
+import pathgenerator.library.util.ChezyMath;
 
 /* Initial authors: Art Kalb, Stephen Pinkerton, Jared341 */
 

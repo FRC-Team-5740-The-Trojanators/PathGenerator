@@ -1,4 +1,4 @@
-package pathgenerator.trajectory;
+package pathgenerator.library.trajectory;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -9,12 +9,13 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import pathgenerator.util.ChezyMath;
-import pathgenerator.trajectory.WaypointSequence;
+import pathgenerator.library.util.ChezyMath;
+import pathgenerator.library.trajectory.WaypointSequence;
 
 
 
-public class WaypointSequenceTests {
+public class WaypointSequenceTests 
+{
     // Arrange, Act, Assert
 
     @Test
